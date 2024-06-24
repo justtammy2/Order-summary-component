@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s ease;
+  
+}
+
+/* The order card div container */
+
+.container{
+    margin: 50px auto;
+    background-color: #fff;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* For the top image */
+
+.top-img{
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* For the typrography */
+
+h2{
+    color: hsl(223, 47%, 23%);
+}
+
+.paragraph1{
+    margin-left: 18%;
+    width: 270px;
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+}
+
+/* For the smaller container at the middle containing music-icon,Annual plan, ETC. */
+
+.small-container{
+    display: flex;
+    margin-left: 35px;
+    align-content: center; 
+    width: 330px;
+    padding: 15px  0px 15px 0px ;
+    gap: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+}
+
+h3{
+    color: hsl(223, 47%, 23%);
+
+}
+
+.icon{
+    margin-left: 20px;
+}
+
+.year{
+    line-height: 30px;
+    color: hsl(224, 23%, 55%);
+}
+
+.sidetext{
+    margin: 15px 0px 0 20px;
+}
+
+.sidetext a{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    transition: .4s ease;
+
+}
+
+.sidetext a:active{
+    color: hsla(245, 75%, 52%, 0.64);
+    text-decoration: none;
+}
+
+/* The buttons */
+
+.btn1{
+    height: 55px;
+    width: 85%;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 13px;
+    transition: .4s ease;
+}
+
+.btn1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.btn1:active{
+    background-color: hsla(245, 75%, 52%, 0.64);
+}
+
+.btn2{
+    background-color: transparent;
+    margin: 10px 0px 30px 0px;
+    height: 40px;
+    width: 50%;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn2 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    transition: 0.4s ease;
+}
+
+.btn2 a:active{
+    color: hsl(223, 47%, 23%);
+}
+
+/* For the footer */
+
+.attribution{
+    font-size: 15px;
+    text-align: center; 
+    padding: 30px;
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%);
+}

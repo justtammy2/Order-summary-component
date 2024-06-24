@@ -1,0 +1,27 @@
+
+/* How it will display @screen size 780px */
+
+@media only screen and (min-width:780px){
+    body{
+    background-image:url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+
+    }
+
+    .container{
+        /* margin-top: 8%; */
+    }
+
+    .btn1:hover{
+        background-color:  hsl(223, 47%, 23%);
+    }
+
+    .btn1:active{
+        background-color: hsla(245, 75%, 52%, 0.64);
+    }
+
+    .btn2:hover{
+        color: hsl(223, 47%, 23%);
+        border: 2px solid hsla(245, 75%, 52%, 0.64);
+    }
+}
